@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Modern target for better performance
+    "module": "ESNext", // ES modules for tree-shaking
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ], // Include DOM and ESNext features
+    "jsx": "react-jsx", // JSX support for React (React 17+)
+    /* TypeScript Features */
+    "strict": true, // Enable strict type-checking
+    "declaration": true, // Generate type declaration files
+    "declarationMap": true, // Map declaration files for debugging
+    "emitDeclarationOnly": false, // Emit both JS and declaration files
+    "esModuleInterop": true, // Interoperability with ES modules
+    "skipLibCheck": true, // Skip checking type declaration files
+    "isolatedModules": true, // Ensure compatibility with ES modules
+    /* Paths and Output */
+    "outDir": "dist", // Output directory for build artifacts
+    "rootDir": "src", // Input directory for source files
+    "baseUrl": ".", // Relative base URL for module resolution
+    /* Module Resolution */
+    "moduleResolution": "node", // Node.js-style resolution
+    "resolveJsonModule": true, // Allow importing JSON files
+    "allowSyntheticDefaultImports": true, // Allow default imports from non-ES modules
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
