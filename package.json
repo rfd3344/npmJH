@@ -1,6 +1,6 @@
 {
   "name": "rfd3344",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/rfd3344.umd.js",
   "module": "dist/rfd3344.es.js",
   "scripts": {
